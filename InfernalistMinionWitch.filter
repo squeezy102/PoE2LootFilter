@@ -33,7 +33,7 @@ PlayEffect Cyan
 Show
 Class "Currency"
 BaseType "Mirror" "Divine" "Perfect Jeweller's Orb"
-SetFontSize 45
+SetFontSize 40
 SetTextColor 255 128 0
 SetBorderColor 255 128 0
 SetBackgroundColor 0 0 0
@@ -44,7 +44,7 @@ PlayEffect Orange
 Show
 Class "Currency"
 BaseType "Gemcutter's Prism" "Orb of Annulment" "Orb of Chance" "Exalted" "Greater Jeweller's Orb" "Chaos Orb"
-SetFontSize 40
+SetFontSize 35
 SetTextColor 163 53 238
 SetBorderColor 163 53 238
 SetBackgroundColor 0 0 0
@@ -55,7 +55,7 @@ PlayEffect Purple
 Show
 Class "Currency"
 BaseType "Vaal Orb" "Lesser Jeweller's Orb" "Regal Orb" "Artificer's Orb"
-SetFontSize 35
+SetFontSize 30
 SetTextColor 0 112 221
 SetBorderColor 0 112 221
 SetBackgroundColor 0 0 0
@@ -75,7 +75,7 @@ PlayEffect Green
 Show
 Class "Currency"
 BaseType "Arcanist's Etcher" "Armourer's Scrap" "Blacksmith's Whetstone" "Glassblower's Bauble"
-SetFontSize 25
+SetFontSize 30
 SetTextColor 255 255 255
 SetBorderColor 255 255 255
 SetBackgroundColor 0 0 0
@@ -84,7 +84,7 @@ SetBackgroundColor 0 0 0
 Show
 Class "Currency"
 BaseType " Shard"
-SetFontSize 20
+SetFontSize 25
 SetTextColor 157 157 157
 SetBorderColor 157 157 157
 SetBackgroundColor 0 0 0
@@ -116,7 +116,7 @@ SetFontSize 30
 Show
 BaseType " Rune"
 SetTextColor 128 128 128
-SetBorderColor 128 128 128
+SetBorderColor 255 255 255
 SetBackgroundColor 0 0 0
 SetFontSize 30
 
@@ -129,7 +129,7 @@ Show
 BaseType " Charm"
 Rarity >= Magic
 SetTextColor 128 128 128
-SetBorderColor 128 128 128
+SetBorderColor 255 255 255
 SetBackgroundColor 0 0 0
 SetFontSize 30
 
@@ -144,7 +144,7 @@ SetBorderColor 255 255 255
 PlayAlertSound 4 300
 PlayEffect White
 MinimapIcon 1 White Square
-SetFontSize 40
+SetFontSize 35
 
 #--------------------------
 # Equip1 - Uniques
@@ -168,62 +168,62 @@ SetFontSize 40
 Show
 Class "Flasks"
 Rarity Magic
-SetFontSize 20
+SetFontSize 25
 BaseType "Ultimate"
 
 # Rings
 Show
 Class "Rings"
 Rarity <= Rare
-SetFontSize 40
+SetFontSize 30
 BaseType "Amethyst" "Prismatic" "Topaz" "Sapphire" "Ruby"
 
 # Amulets
 Class "Amulets"
 Rarity <= Rare
-SetFontSize 40
+SetFontSize 30
 BaseType "Bloodstone" "Stellar" "Solar" "Lunar" "Lapis" "Amber"
 
 # Belts
 Class "Belts"
 Rarity >= Rare
-SetFontSize 40
+SetFontSize 30
 BaseType "Golden" "Plate" "Fine"
 
 # Sceptres
 Show
 Rarity <= Rare
-SetFontSize 40
+SetFontSize 30
 BaseType "Rattling Sceptre"
 
 # Shields
 Show
 Rarity <= Rare
-SetFontSize 40
+SetFontSize 30
 BaseType "Jingling Crest Shield" "Omen Crest Shield" "Advanced Jingling Crest Shield" "Advanced Omen Crest Shield" "Expert Jingling Crest Shield" "Expert Omen Crest Shield"
 
 # Gloves
 Show
 Rarity <= Rare
-SetFontSize 40
+SetFontSize 30
 BaseType "Rope Cuffs" "Aged Cuffs" "Advanced Rope Cuffs" "Advanced Aged Cuffs" "Expert Rope Cuffs" "Expert Aged Cuffs"
 
 # Boots
 Show
 Rarity <= Rare
-SetFontSize 40
+SetFontSize 30
 BaseType "Secured Leggings" "Pelt Leggings" "Advanced Pelt Leggings" "Advanced Secured Leggings" "Expert Secured Leggings" "Expert Pelt Leggings"
 
 #Body Armor
 Show
 Rarity <= Rare
-SetFontSize 40
+SetFontSize 30
 BaseType "Sacrificial Mantle" "Ironclad Vestments" "Advanced Sacrificial Mantle" "Advanced Ironclad Vestments" "Expert Sacrificial Mantle"
 
 #Helmets
 Show
 Rarity <= Rare
-SetFontSize 40
+SetFontSize 30
 BaseType "Heavy Crown" "Martyr Crown" "Advanced Heavy Crown" "Advanced Martyr Crown" "Expert Heavy Crown" "Expert Martyr Crown"
 
 #--------------------------
@@ -234,19 +234,19 @@ BaseType "Heavy Crown" "Martyr Crown" "Advanced Heavy Crown" "Advanced Martyr Cr
 Show
 Rarity <= Rare
 Sockets > 0
-SetFontSize 30
+SetFontSize 25
 
 # Quality items for salvage
 Show
 Rarity <= Rare
 Quality > 10
-SetFontSize 30
+SetFontSize 25
 
 # Gold only stacks of 1k+
 Show
 StackSize >= 1000
 BaseType == "Gold"
-SetFontSize 20
+SetFontSize 25
 
 ##====================
 ## Hidden
