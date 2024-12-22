@@ -11,9 +11,20 @@
 # 5. Charms
 # 6. Maps
 # Equip1 Uniques
-# Equip2 Bases
+# Equip2 - Superior Expert Rare Bases (Orange)
+# Equip3 - Expert Rare Bases (Purple)
+# Equip4 - Expert Magic Bases (Blue)
+
 # Equip3 Salvage/Profit
 # Hidden
+
+## WoW colors
+# Legendary Orange 255 128 0
+# Epic Purple 163 53 238
+# Rare Blue 0 112 221
+# Uncommon Green 30 255 0
+# Common White 255 255 255
+# Junk Gray 157 157 157
 
 #--------------------------
 # 1. Gems
@@ -23,6 +34,7 @@ Show
 BaseType "Uncut "
 SetTextColor 20 240 240
 SetBorderColor 20 240 240
+SetBackgroundColor 0 0 0
 PlayEffect Cyan
 
 #--------------------------
@@ -161,7 +173,245 @@ MinimapIcon 1 Brown Square
 SetFontSize 40
 
 #--------------------------
-# Equip2 - Bases
+# Equip2 - Superior Expert Rare Bases (Orange)
+#--------------------------
+
+# Sceptres
+Show
+Rarity Rare
+Quality > 0
+SetFontSize 40
+SetBorderColor 255 128 0
+SetBackgroundColor 0 0 0
+PlayEffect Orange
+BaseType "Rattling Sceptre"
+
+# Shields
+Show
+Rarity Rare
+Quality > 0
+SetFontSize 40
+SetBorderColor 255 128 0
+SetBackgroundColor 0 0 0
+PlayEffect Orange
+BaseType "Expert Jingling Crest Shield" "Expert Omen Crest Shield"
+
+# Gloves
+Show
+Rarity Rare
+Quality > 0
+SetFontSize 40
+SetBorderColor 255 128 0
+SetBackgroundColor 0 0 0
+PlayEffect Orange
+BaseType "Expert Rope Cuffs" "Expert Aged Cuffs"
+
+# Boots
+Show
+Rarity Rare
+Quality > 0
+SetFontSize 40
+SetBorderColor 255 128 0
+SetBackgroundColor 0 0 0
+PlayEffect Orange
+BaseType "Expert Secured Leggings" "Expert Pelt Leggings"
+
+#Body Armor
+Show
+Rarity Rare
+Quality > 0
+SetFontSize 40
+SetBorderColor 255 128 0
+SetBackgroundColor 0 0 0
+PlayEffect Orange
+BaseType "Expert Sacrificial Mantle" "Expert Shaman Mantle"
+
+#Helmets
+Show
+Rarity Rare
+Quality > 0
+SetFontSize 40
+SetBorderColor 255 128 0
+SetBackgroundColor 0 0 0
+PlayEffect Orange
+BaseType "Expert Heavy Crown" "Expert Martyr Crown"
+
+#--------------------------
+# Equip3 - Expert Rare Bases (Purple)
+#--------------------------
+
+# Sceptres
+Show
+Rarity Rare
+SetFontSize 40
+SetBorderColor 163 53 238
+SetBackgroundColor 0 0 0
+PlayEffect Purple
+BaseType "Rattling Sceptre"
+
+# Shields
+Show
+Rarity Rare
+SetFontSize 40
+SetBorderColor 163 53 238
+SetBackgroundColor 0 0 0
+PlayEffect Purple
+BaseType "Expert Jingling Crest Shield" "Expert Omen Crest Shield"
+
+# Gloves
+Show
+Rarity Rare
+SetFontSize 40
+SetBorderColor 163 53 238
+SetBackgroundColor 0 0 0
+PlayEffect Purple
+BaseType "Expert Rope Cuffs" "Expert Aged Cuffs"
+
+# Boots
+Show
+Rarity Rare
+SetFontSize 40
+SetBorderColor 163 53 238
+SetBackgroundColor 0 0 0
+PlayEffect Purple
+BaseType "Expert Secured Leggings" "Expert Pelt Leggings"
+
+#Body Armor
+Show
+Rarity Rare
+SetFontSize 40
+SetBorderColor 163 53 238
+SetBackgroundColor 0 0 0
+PlayEffect Purple
+BaseType "Expert Sacrificial Mantle" "Expert Shaman Mantle"
+
+#Helmets
+Show
+Rarity Rare
+SetFontSize 40
+SetBorderColor 163 53 238
+SetBackgroundColor 0 0 0
+PlayEffect Purple
+BaseType "Expert Heavy Crown" "Expert Martyr Crown"
+
+#--------------------------
+# Equip4 - Expert Magic Bases (Blue)
+#--------------------------
+
+# Sceptres
+Show
+Rarity Magic
+SetFontSize 35
+SetBorderColor 0 112 221
+SetBackgroundColor 0 0 0
+PlayEffect Blue
+BaseType "Rattling Sceptre"
+
+# Shields
+Show
+Rarity Magic
+SetFontSize 35
+SetBorderColor 0 112 221
+SetBackgroundColor 0 0 0
+PlayEffect Blue
+BaseType "Expert Jingling Crest Shield" "Expert Omen Crest Shield"
+
+# Gloves
+Show
+Rarity Magic
+SetFontSize 35
+SetBorderColor 0 112 221
+SetBackgroundColor 0 0 0
+PlayEffect Blue
+BaseType "Expert Rope Cuffs" "Expert Aged Cuffs"
+
+# Boots
+Show
+Rarity Magic
+SetFontSize 35
+SetBorderColor 0 112 221
+SetBackgroundColor 0 0 0
+PlayEffect Blue
+BaseType "Expert Secured Leggings" "Expert Pelt Leggings"
+
+#Body Armor
+Show
+Rarity Magic
+SetFontSize 35
+SetBorderColor 0 112 221
+SetBackgroundColor 0 0 0
+PlayEffect Blue
+BaseType "Expert Sacrificial Mantle" "Expert Shaman Mantle"
+
+#Helmets
+Show
+Rarity Magic
+SetFontSize 35
+SetBorderColor 0 112 221
+SetBackgroundColor 0 0 0
+PlayEffect Blue
+BaseType "Expert Heavy Crown" "Expert Martyr Crown"
+
+#--------------------------
+# Equip4 - Expert Normal Bases (Green)
+#--------------------------
+
+# Sceptres
+Show
+Rarity Normal
+SetFontSize 35
+SetBorderColor 30 255 0
+SetBackgroundColor 0 0 0
+PlayEffect Green
+BaseType "Rattling Sceptre"
+
+# Shields
+Show
+Rarity Normal
+SetFontSize 35
+SetBorderColor 30 255 0
+SetBackgroundColor 0 0 0
+PlayEffect Green
+BaseType "Expert Jingling Crest Shield" "Expert Omen Crest Shield"
+
+# Gloves
+Show
+Rarity Normal
+SetFontSize 35
+SetBorderColor 30 255 0
+SetBackgroundColor 0 0 0
+PlayEffect Green
+BaseType "Expert Rope Cuffs" "Expert Aged Cuffs"
+
+# Boots
+Show
+Rarity Normal
+SetFontSize 35
+SetBorderColor 30 255 0
+SetBackgroundColor 0 0 0
+PlayEffect Green
+BaseType "Expert Secured Leggings" "Expert Pelt Leggings"
+
+#Body Armor
+Show
+Rarity Normal
+SetFontSize 35
+SetBorderColor 30 255 0
+SetBackgroundColor 0 0 0
+PlayEffect Green
+BaseType "Expert Sacrificial Mantle" "Expert Shaman Mantle"
+
+#Helmets
+Show
+Rarity Normal
+SetFontSize 35
+SetBorderColor 30 255 0
+SetBackgroundColor 0 0 0
+PlayEffect Green
+BaseType "Expert Heavy Crown" "Expert Martyr Crown"
+
+#--------------------------
+# Equip5 - Other Bases
 #--------------------------
 
 # Flasks
@@ -190,17 +440,11 @@ Rarity >= Rare
 SetFontSize 30
 BaseType "Golden" "Plate" "Fine"
 
-# Sceptres
-Show
-Rarity <= Rare
-SetFontSize 30
-BaseType "Rattling Sceptre"
-
 # Shields
 Show
 Rarity <= Rare
 SetFontSize 30
-BaseType "Jingling Crest Shield" "Omen Crest Shield" "Advanced Jingling Crest Shield" "Advanced Omen Crest Shield" "Expert Jingling Crest Shield" "Expert Omen Crest Shield"
+BaseType "Jingling Crest Shield" "Omen Crest Shield" "Advanced Jingling Crest Shield" "Advanced Omen Crest Shield"
 
 # Gloves
 Show
@@ -218,7 +462,7 @@ BaseType "Secured Leggings" "Pelt Leggings" "Advanced Pelt Leggings" "Advanced S
 Show
 Rarity <= Rare
 SetFontSize 30
-BaseType "Sacrificial Mantle" "Ironclad Vestments" "Advanced Sacrificial Mantle" "Advanced Ironclad Vestments" "Expert Sacrificial Mantle"
+BaseType "Sacrificial Mantle" "Shaman Mantle" "Advanced Sacrificial Mantle" "Advanced Shaman Mantle" "Expert Sacrificial Mantle" "Expert Shaman Mantle"
 
 #Helmets
 Show
