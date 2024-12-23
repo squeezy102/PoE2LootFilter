@@ -418,6 +418,7 @@ BaseType "Expert Heavy Crown" "Expert Martyr Crown"
 Show
 Class "Flasks"
 Rarity Magic
+Quality > 0
 SetFontSize 25
 BaseType "Ultimate"
 
@@ -456,19 +457,19 @@ BaseType "Rope Cuffs" "Aged Cuffs" "Advanced Rope Cuffs" "Advanced Aged Cuffs" "
 Show
 Rarity <= Rare
 SetFontSize 30
-BaseType "Secured Leggings" "Pelt Leggings" "Advanced Pelt Leggings" "Advanced Secured Leggings" "Expert Secured Leggings" "Expert Pelt Leggings"
+BaseType "Secured Leggings" "Pelt Leggings" "Advanced Pelt Leggings" "Advanced Secured Leggings"
 
 #Body Armor
 Show
 Rarity <= Rare
 SetFontSize 30
-BaseType "Sacrificial Mantle" "Shaman Mantle" "Advanced Sacrificial Mantle" "Advanced Shaman Mantle" "Expert Sacrificial Mantle" "Expert Shaman Mantle"
+BaseType "Sacrificial Mantle" "Shaman Mantle" "Advanced Sacrificial Mantle" "Advanced Shaman Mantle"
 
 #Helmets
 Show
 Rarity <= Rare
 SetFontSize 30
-BaseType "Heavy Crown" "Martyr Crown" "Advanced Heavy Crown" "Advanced Martyr Crown" "Expert Heavy Crown" "Expert Martyr Crown"
+BaseType "Heavy Crown" "Martyr Crown" "Advanced Heavy Crown" "Advanced Martyr Crown"
 
 #--------------------------
 # Equip3 - Salvage/Profit
