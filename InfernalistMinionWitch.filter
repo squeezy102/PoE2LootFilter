@@ -78,7 +78,7 @@ PlayEffect Blue
 # Uncommon Tier Currency (Green)
 Show
 Class "Currency"
-BaseType "Orb of Augmentation" "Orb of Transmutation" "Orb of Alchemy" "Regal Shard"
+BaseType "Orb of Augmentation" "Orb of Transmutation" "Orb of Alchemy" "Regal Shard" "Chance Shard"
 SetFontSize 30
 SetTextColor 30 255 0
 SetBorderColor 30 255 0
