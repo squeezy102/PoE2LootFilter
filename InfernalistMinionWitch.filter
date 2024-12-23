@@ -1,22 +1,23 @@
-# Pj's Loot Filter
+## Pj's Loot Filter
 
 ## Control+F to search for headers
 
 ## Table of contents
-
 # 1. Gems
 # 2. Currency
 # 3. Jewels
 # 4. Runes
 # 5. Charms
 # 6. Maps
-# Equip1 Uniques
+# Equip1 - Uniques
 # Equip2 - Superior Expert Rare Bases (Orange)
 # Equip3 - Expert Rare Bases (Purple)
 # Equip4 - Expert Magic Bases (Blue)
-
-# Equip3 Salvage/Profit
+# Equip5 - Expert Normal Bases (Green)
+# Equip6 - Other Bases
+# Salvage/Disenchant/Profit
 # Hidden
+
 
 ## WoW colors
 # Legendary Orange 255 128 0
@@ -353,7 +354,7 @@ PlayEffect Blue
 BaseType "Expert Heavy Crown" "Expert Martyr Crown"
 
 #--------------------------
-# Equip4 - Expert Normal Bases (Green)
+# Equip5 - Expert Normal Bases (Green)
 #--------------------------
 
 # Sceptres
@@ -411,7 +412,7 @@ PlayEffect Green
 BaseType "Expert Heavy Crown" "Expert Martyr Crown"
 
 #--------------------------
-# Equip5 - Other Bases
+# Equip6 - Other Bases
 #--------------------------
 
 # Flasks
@@ -441,38 +442,8 @@ Rarity >= Rare
 SetFontSize 30
 BaseType "Golden" "Plate" "Fine"
 
-# Shields
-Show
-Rarity <= Rare
-SetFontSize 30
-BaseType "Jingling Crest Shield" "Omen Crest Shield" "Advanced Jingling Crest Shield" "Advanced Omen Crest Shield"
-
-# Gloves
-Show
-Rarity <= Rare
-SetFontSize 30
-BaseType "Rope Cuffs" "Aged Cuffs" "Advanced Rope Cuffs" "Advanced Aged Cuffs" "Expert Rope Cuffs" "Expert Aged Cuffs"
-
-# Boots
-Show
-Rarity <= Rare
-SetFontSize 30
-BaseType "Secured Leggings" "Pelt Leggings" "Advanced Pelt Leggings" "Advanced Secured Leggings"
-
-#Body Armor
-Show
-Rarity <= Rare
-SetFontSize 30
-BaseType "Sacrificial Mantle" "Shaman Mantle" "Advanced Sacrificial Mantle" "Advanced Shaman Mantle"
-
-#Helmets
-Show
-Rarity <= Rare
-SetFontSize 30
-BaseType "Heavy Crown" "Martyr Crown" "Advanced Heavy Crown" "Advanced Martyr Crown"
-
 #--------------------------
-# Equip3 - Salvage/Profit
+# Salvage/Disenchant/Profit
 #--------------------------
 
 # Socketed items for salvage
@@ -486,6 +457,20 @@ Show
 Rarity <= Rare
 Quality > 10
 SetFontSize 25
+
+# Magic and rare equipment for disenchanting
+Show
+Rarity > Normal
+SetFontSize 25
+SetBorderColor 127 127 127
+BaseType "Jingling Crest Shield" "Omen Crest Shield" "Advanced Jingling Crest Shield" "Advanced Omen Crest Shield" "Rope Cuffs" "Aged Cuffs" "Advanced Rope Cuffs" "Advanced Aged Cuffs" "Expert Rope Cuffs" "Expert Aged Cuffs" 
+
+# Magic and rare equipment for disenchanting (cont'd separately for neatness)
+Show
+Rarity > Normal
+SetFontSize 25
+SetBorderColor 127 127 127
+BaseType "Secured Leggings" "Pelt Leggings" "Advanced Pelt Leggings" "Advanced Secured Leggings" "Sacrificial Mantle" "Shaman Mantle" "Advanced Sacrificial Mantle" "Advanced Shaman Mantle" "Heavy Crown" "Martyr Crown" "Advanced Heavy Crown" "Advanced Martyr Crown"
 
 # Gold only stacks of 1k+
 Show
