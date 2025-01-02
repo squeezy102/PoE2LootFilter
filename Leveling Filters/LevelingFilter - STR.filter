@@ -180,10 +180,40 @@ SetFontSize 40
 
 Show
 Rarity <= Rare
-Class "Body Armours" "Helmets" "Gloves" "Boots"
+Class "Body Armours" "Helmets" "Gloves" "Boots" "Shields"
 BaseArmour >= 0
 BaseEnergyShield <= 0
 BaseEvasion <= 0
+
+Show
+Rarity <= Rare
+Class "Two Hand Maces" "One Hand Maces"
+
+##====================
+## Salvage/Profit
+##====================
+
+# Show only gold stacks of 100+
+Show
+BaseType "Gold"
+StackSize >= 100
+
+##====================
+## Hidden
+##====================
+
+# Hide other equipment that hasn't met any other criteria
+Hide
+Class "Helmets" "Body" "Gloves" "Boots" "Wand" "Bow" "Crossbow" "Mace" "Quarterstaff" "Shields" "Foci" "Flasks" "Quivers" "Sceptres" "Staves" "Rings" "Belts" "Amulets" "Charms"
+
+# Hide Wisdom Scrolls
+Hide
+Class "Currency"
+BaseType "Scroll of Wisdom"
+
+# Hide gold other than stacksize defined above (1k)
+Hide
+BaseType "Gold"
 
 
 
