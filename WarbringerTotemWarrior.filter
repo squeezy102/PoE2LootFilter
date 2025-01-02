@@ -176,32 +176,393 @@ MinimapIcon 1 Brown Square
 SetFontSize 40
 
 #--------------------------
-# Equip2 - Str/Armor Bases Only
+# Equip2 - Superior Socketed Expert Rare Bases (Orange)
 #--------------------------
 
+# Weapons
 Show
-Class "Gloves" "Body Armours" "Boots" "Helmets"
-BaseArmour > 0
-BaseEvasion <= 0
-BaseEnergyShield <= 0
+Rarity Rare
+Quality > 0
+Sockets > 0
+SetFontSize 40
+SetBorderColor 255 128 0
+SetBackgroundColor 0 0 0
+PlayEffect Orange
+BaseType "Expert Construct Hammer" "Expert Warpick" "Expert Crumbling Maul" "Expert Cultist Greathammer"
 
-#--------------------------
-# Equip3 - Maces Only
-#--------------------------
-
+# Shields
 Show
-BaseType "One Hand Mace" "Two Hand Mace"
+Rarity Rare
+Quality > 0
+Sockets > 0
+SetFontSize 40
+SetBorderColor 255 128 0
+SetBackgroundColor 0 0 0
+PlayEffect Orange
+BaseType "Expert Rampart Tower Shield" "Expert Stone Tower Shield"
+
+# Gloves
+Show
+Rarity Rare
+Quality > 0
+Sockets > 0
+SetFontSize 40
+SetBorderColor 255 128 0
+SetBackgroundColor 0 0 0
+PlayEffect Orange
+BaseType "Expert Riveted Mitts" "Expert Moulded Mitts"
+
+# Boots
+Show
+Rarity Rare
+Quality > 0
+Sockets > 0
+SetFontSize 40
+SetBorderColor 255 128 0
+SetBackgroundColor 0 0 0
+PlayEffect Orange
+BaseType "Expert Trimmed Greaves" "Expert Stone Greaves"
+
+#Body Armor
+Show
+Rarity Rare
+Quality > 0
+Sockets > 0
+SetFontSize 40
+SetBorderColor 255 128 0
+SetBackgroundColor 0 0 0
+PlayEffect Orange
+BaseType "Expert Steel Plate" "Expert Vaal Cuirass"
+
+#Helmets
+Show
+Rarity Rare
+Quality > 0
+Sockets > 0
+SetFontSize 40
+SetBorderColor 255 128 0
+SetBackgroundColor 0 0 0
+PlayEffect Orange
+BaseType "Expert Elite Greathelm" "Expert Spired Greathelm"
 
 #--------------------------
-# Hidden
+# Equip3 - Superior Expert Rare Bases (Purple)
 #--------------------------
 
-# Hide all equipment bases that don't meet above criteria
+# Weapons
+Show
+Rarity Rare
+Quality > 0
+SetFontSize 40
+SetBorderColor 163 53 238
+SetBackgroundColor 0 0 0
+PlayEffect Purple
+BaseType "Expert Construct Hammer" "Expert Warpick" "Expert Crumbling Maul" "Expert Cultist Greathammer"
+
+# Shields
+Show
+Rarity Rare
+Quality > 0
+SetFontSize 40
+SetBorderColor 163 53 238
+SetBackgroundColor 0 0 0
+PlayEffect Purple
+BaseType "Expert Rampart Tower Shield" "Expert Stone Tower Shield"
+
+# Gloves
+Show
+Rarity Rare
+Quality > 0
+SetFontSize 40
+SetBorderColor 163 53 238
+SetBackgroundColor 0 0 0
+PlayEffect Purple
+BaseType "Expert Riveted Mitts" "Expert Moulded Mitts"
+
+# Boots
+Show
+Rarity Rare
+Quality > 0
+SetFontSize 40
+SetBorderColor 163 53 238
+SetBackgroundColor 0 0 0
+PlayEffect Purple
+BaseType "Expert Trimmed Greaves" "Expert Stone Greaves"
+
+#Body Armor
+Show
+Rarity Rare
+Quality > 0
+SetFontSize 40
+SetBorderColor 163 53 238
+SetBackgroundColor 0 0 0
+PlayEffect Purple
+BaseType "Expert Steel Plate" "Expert Vaal Cuirass"
+
+#Helmets
+Show
+Rarity Rare
+Quality > 0
+SetFontSize 40
+SetBorderColor 163 53 238
+SetBackgroundColor 0 0 0
+PlayEffect Purple
+BaseType "Expert Elite Greathelm" "Expert Spired Greathelm"
+
+#--------------------------
+# Equip4 - Expert Rare Bases (Blue)
+#--------------------------
+
+# Weapons
+Show
+Rarity Rare
+SetFontSize 35
+SetBorderColor 0 112 221
+SetBackgroundColor 0 0 0
+PlayEffect Blue
+BaseType "Expert Construct Hammer" "Expert Warpick" "Expert Crumbling Maul" "Expert Cultist Greathammer"
+
+# Shields
+Show
+Rarity Rare
+SetFontSize 35
+SetBorderColor 0 112 221
+SetBackgroundColor 0 0 0
+PlayEffect Blue
+BaseType "Expert Rampart Tower Shield" "Expert Stone Tower Shield"
+
+# Gloves
+Show
+Rarity Rare
+SetFontSize 35
+SetBorderColor 0 112 221
+SetBackgroundColor 0 0 0
+PlayEffect Blue
+BaseType "Expert Riveted Mitts" "Expert Moulded Mitts"
+
+# Boots
+Show
+Rarity Rare
+SetFontSize 35
+SetBorderColor 0 112 221
+SetBackgroundColor 0 0 0
+PlayEffect Blue
+BaseType "Expert Trimmed Greaves" "Expert Stone Greaves"
+
+#Body Armor
+Show
+Rarity Rare
+SetFontSize 35
+SetBorderColor 0 112 221
+SetBackgroundColor 0 0 0
+PlayEffect Blue
+BaseType "Expert Steel Plate" "Expert Vaal Cuirass"
+
+#Helmets
+Show
+Rarity Rare
+SetFontSize 35
+SetBorderColor 0 112 221
+SetBackgroundColor 0 0 0
+PlayEffect Blue
+BaseType "Expert Elite Greathelm" "Expert Spired Greathelm"
+
+#--------------------------
+# Equip5 - Expert Magic Bases (Green)
+#--------------------------
+
+# Weapons
+Show
+Rarity Magic
+SetFontSize 35
+SetBorderColor 30 255 0
+SetBackgroundColor 0 0 0
+PlayEffect Green
+BaseType "Expert Construct Hammer" "Expert Warpick" "Expert Crumbling Maul" "Expert Cultist Greathammer"
+
+# Shields
+Show
+Rarity Magic
+SetFontSize 35
+SetBorderColor 30 255 0
+SetBackgroundColor 0 0 0
+PlayEffect Green
+BaseType "Expert Rampart Tower Shield" "Expert Stone Tower Shield"
+
+# Gloves
+Show
+Rarity Magic
+SetFontSize 35
+SetBorderColor 30 255 0
+SetBackgroundColor 0 0 0
+PlayEffect Green
+BaseType "Expert Riveted Mitts" "Expert Moulded Mitts"
+
+# Boots
+Show
+Rarity Magic
+SetFontSize 35
+SetBorderColor 30 255 0
+SetBackgroundColor 0 0 0
+PlayEffect Green
+BaseType "Expert Trimmed Greaves" "Expert Stone Greaves"
+
+#Body Armor
+Show
+Rarity Magic
+SetFontSize 35
+SetBorderColor 30 255 0
+SetBackgroundColor 0 0 0
+PlayEffect Green
+BaseType "Expert Steel Plate" "Expert Vaal Cuirass"
+
+#Helmets
+Show
+Rarity Magic
+SetFontSize 35
+SetBorderColor 30 255 0
+SetBackgroundColor 0 0 0
+PlayEffect Green
+BaseType "Expert Elite Greathelm" "Expert Spired Greathelm"
+
+#--------------------------
+# Equip6 - Expert Normal Bases (White)
+#--------------------------
+
+# Weapons
+Show
+Rarity Normal
+SetFontSize 35
+SetBorderColor 255 255 255
+SetBackgroundColor 0 0 0
+PlayEffect White
+BaseType "Expert Construct Hammer" "Expert Warpick" "Expert Crumbling Maul" "Expert Cultist Greathammer"
+
+# Shields
+Show
+Rarity Normal
+SetFontSize 35
+SetBorderColor 255 255 255
+SetBackgroundColor 0 0 0
+PlayEffect White
+BaseType "Expert Rampart Tower Shield" "Expert Stone Tower Shield"
+
+# Gloves
+Show
+Rarity Normal
+SetFontSize 35
+SetBorderColor 255 255 255
+SetBackgroundColor 0 0 0
+PlayEffect White
+BaseType "Expert Riveted Mitts" "Expert Moulded Mitts"
+
+# Boots
+Show
+Rarity Normal
+SetFontSize 35
+SetBorderColor 255 255 255
+SetBackgroundColor 0 0 0
+PlayEffect White
+BaseType "Expert Trimmed Greaves" "Expert Stone Greaves"
+
+#Body Armor
+Show
+Rarity Normal
+SetFontSize 35
+SetBorderColor 255 255 255
+SetBackgroundColor 0 0 0
+PlayEffect White
+BaseType "Expert Steel Plate" "Expert Vaal Cuirass"
+
+#Helmets
+Show
+Rarity Normal
+SetFontSize 35
+SetBorderColor 255 255 255
+SetBackgroundColor 0 0 0
+PlayEffect White
+BaseType "Expert Elite Greathelm" "Expert Spired Greathelm"
+
+#--------------------------
+# Equip7 - Other Bases
+#--------------------------
+
+# Flasks
+Show
+Class "Flasks"
+Rarity Magic
+Quality > 0
+SetFontSize 25
+BaseType "Ultimate"
+
+# Rings
+Show
+Class "Rings"
+Rarity <= Rare
+SetFontSize 30
+BaseType "Amethyst" "Prismatic" "Topaz" "Sapphire" "Ruby"
+
+# Amulets
+Class "Amulets"
+Rarity <= Rare
+SetFontSize 30
+BaseType "Bloodstone" "Stellar" "Solar" "Lunar" "Lapis" "Amber"
+
+# Belts
+Class "Belts"
+Rarity >= Rare
+SetFontSize 30
+BaseType "Golden" "Plate" "Fine"
+
+#--------------------------
+# Salvage/Disenchant/Profit
+#--------------------------
+
+# Socketed items for salvage
+Show
+Rarity <= Rare
+Sockets > 0
+SetFontSize 25
+
+# Quality items for salvage
+Show
+Rarity <= Rare
+Quality > 10
+SetFontSize 25
+
+# Magic and rare equipment for disenchanting
+Show
+Rarity > Normal
+SetFontSize 25
+SetBorderColor 127 127 127
+BaseType "Jingling Crest Shield" "Omen Crest Shield" "Advanced Jingling Crest Shield" "Advanced Omen Crest Shield" "Rope Cuffs" "Aged Cuffs" "Advanced Rope Cuffs" "Advanced Aged Cuffs" "Expert Rope Cuffs" "Expert Aged Cuffs" 
+
+# Magic and rare equipment for disenchanting (cont'd separately for neatness)
+Show
+Rarity > Normal
+SetFontSize 25
+SetBorderColor 127 127 127
+BaseType "Secured Leggings" "Pelt Leggings" "Advanced Pelt Leggings" "Advanced Secured Leggings" "Sacrificial Mantle" "Shaman Mantle" "Advanced Sacrificial Mantle" "Advanced Shaman Mantle" "Heavy Crown" "Martyr Crown" "Advanced Heavy Crown" "Advanced Martyr Crown"
+
+# Gold only stacks of 1k+
+Show
+StackSize >= 1000
+BaseType == "Gold"
+SetFontSize 25
+
+##====================
+## Hidden
+##====================
+
+# Hide other equipment that hasn't met any other criteria
 Hide
-Class "Gloves" "Body Armours" "Boots" "Helmets"
+Class "Helmets" "Body" "Gloves" "Boots" "Wand" "Bow" "Crossbow" "Mace" "Quarterstaff" "Shields" "Foci" "Flasks" "Quivers" "Sceptres" "Staves" "Rings" "Belts" "Amulets" "Charms"
 
-# Hide all weapons that don't meet above criteria
+# Hide Wisdom Scrolls
 Hide
-BaseType "Sceptre" "Quarterstaff" "Wand" "Staff" "Bow" "Crossbow"
+Class "Currency"
+BaseType "Scroll of Wisdom"
 
-
+# Hide gold other than stacksize defined above (1k)
+Hide
+BaseType "Gold"
