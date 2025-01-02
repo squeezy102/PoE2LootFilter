@@ -9,19 +9,17 @@ Loot filters for POE2 early access
 - Most charms are hidden
 - Most flasks are hidden
 
-## Infernalist
-### Key Features
+### Infernalist
 - Hides all sceptres except rattling sceptres
 - Hides all armor bases except for top-end armor/energy shield bases
 - Strict filtering.  Most items are hidden.
 
-## Warbringer
-### Key Features
+### Warbringer
 - Hides all weapons except maces
 - Hides all armor bases except for top-end armor bases.
 - Strict filtering.  Most items are hidden.
 
-# Leveling Filters
+## Leveling Filters
 - Only show their respective armor types
 - Only show their respected weapon types
 - Very lightweight filtering.  Not much is hidden.
