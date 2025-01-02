@@ -11,3 +11,11 @@ Loot filters for POE2 early access
 - Hides scrolls of wisdom
 - Hides normal charms, only shows magic and rare charms
 - Hides non-superior flasks, only shows superior ultimate
+
+## Warbringer Totem Warrior
+### Key Features
+- Still leveling this character, so the filter is very simple
+- Hides all non-STR bases
+- Hides all non-mace weapons
+- Hides small stacks of gold
+- Hides scrolls of wisdom
