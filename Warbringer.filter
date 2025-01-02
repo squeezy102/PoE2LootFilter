@@ -170,7 +170,6 @@ Rarity Unique
 SetTextColor 175 96 37
 SetBorderColor 175 96 37
 SetBackgroundColor 0 0 0
-PlayAlertSound 4 300
 PlayEffect Brown
 MinimapIcon 1 Brown Square
 SetFontSize 40
@@ -456,6 +455,7 @@ SetBackgroundColor 0 0 0
 PlayEffect White
 BaseType "Expert Riveted Mitts" "Expert Moulded Mitts"
 
+
 # Boots
 Show
 Rarity Normal
@@ -535,14 +535,7 @@ Show
 Rarity > Normal
 SetFontSize 25
 SetBorderColor 127 127 127
-BaseType "Jingling Crest Shield" "Omen Crest Shield" "Advanced Jingling Crest Shield" "Advanced Omen Crest Shield" "Rope Cuffs" "Aged Cuffs" "Advanced Rope Cuffs" "Advanced Aged Cuffs" "Expert Rope Cuffs" "Expert Aged Cuffs" 
-
-# Magic and rare equipment for disenchanting (cont'd separately for neatness)
-Show
-Rarity > Normal
-SetFontSize 25
-SetBorderColor 127 127 127
-BaseType "Secured Leggings" "Pelt Leggings" "Advanced Pelt Leggings" "Advanced Secured Leggings" "Sacrificial Mantle" "Shaman Mantle" "Advanced Sacrificial Mantle" "Advanced Shaman Mantle" "Heavy Crown" "Martyr Crown" "Advanced Heavy Crown" "Advanced Martyr Crown"
+BaseType "Riveted Mitts" "Moulded Mitts" "Trimmed Greaves" "Stone Greaves" "Steel Plate" "Vaal Cuirass" "Elite Greathelm" "Spired Greathelm"
 
 # Gold only stacks of 1k+
 Show
