@@ -21,5 +21,5 @@ Loot filters for POE2 early access
 
 ## Leveling Filters
 - Only show their respective armor types
-- Only show their respected weapon types
+- Only show their respective weapon types
 - Very lightweight filtering.  Not much is hidden.
