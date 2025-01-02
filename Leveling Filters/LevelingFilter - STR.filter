@@ -208,6 +208,7 @@ Class "Helmets" "Body" "Gloves" "Boots" "Wand" "Bow" "Crossbow" "Mace" "Quarters
 
 # Hide Wisdom Scrolls
 Hide
+AreaLevel >= 30
 Class "Currency"
 BaseType "Scroll of Wisdom"
 
