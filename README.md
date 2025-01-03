@@ -9,6 +9,8 @@ Loot filters for POE2 early access
 - Most charms are hidden
 - Most flasks are hidden
 
+## Endgame Filters
+
 ### Infernalist
 - Hides all sceptres except rattling sceptres
 - Hides all armor bases except for top-end armor/energy shield bases
@@ -23,3 +25,6 @@ Loot filters for POE2 early access
 - Only show their respective armor types
 - Only show their respective weapon types
 - Very lightweight filtering.  Not much is hidden.
+
+## Donate
+https://www.paypal.com/donate/?business=4KSEQCV85DZEG&no_recurring=0&currency_code=USD
