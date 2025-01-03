@@ -1,5 +1,5 @@
 ## Pj's Loot Filter
-# Simple leveling filter for DEX characters
+# Simple leveling filter for INT/DEX characters
 
 ## Control+F to search for headers
 
@@ -11,7 +11,7 @@
 # 5. Charms
 # 6. Maps
 # Equip1 - Uniques
-# Equip2 - Dexterity Bases Only
+# Equip2 - INT/DEX Bases Only
 # Salvage/Disenchant/Profit
 # Hidden
 
@@ -170,7 +170,7 @@ MinimapIcon 1 Brown Square
 SetFontSize 40
 
 #--------------------------
-# Equip2 - STR bases only
+# Equip2 - INT/DEX bases only
 #--------------------------
 
 Show
