@@ -1,5 +1,5 @@
 ## Pj's Loot Filter
-# Simple leveling filter for STR characters
+# Simple leveling filter for DEX characters
 
 ## Control+F to search for headers
 
@@ -11,7 +11,7 @@
 # 5. Charms
 # 6. Maps
 # Equip1 - Uniques
-# Equip2 - Strength Bases Only
+# Equip2 - Dexterity Bases Only
 # Salvage/Disenchant/Profit
 # Hidden
 
@@ -175,14 +175,14 @@ SetFontSize 40
 
 Show
 Rarity <= Rare
-Class "Body Armours" "Helmets" "Gloves" "Boots" "Shields"
-BaseArmour >= 0
+Class "Body Armours" "Helmets" "Gloves" "Boots"
+BaseArmour > 0
 BaseEnergyShield <= 0
-BaseEvasion <= 0
+BaseEvasion > 0
 
 Show
 Rarity <= Rare
-Class "Two Hand Maces" "One Hand Maces"
+Class "Crossbows"
 
 ##====================
 ## Salvage/Profit
