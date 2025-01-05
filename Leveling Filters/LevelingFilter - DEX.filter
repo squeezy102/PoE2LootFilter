@@ -12,6 +12,7 @@
 # 6. Maps
 # Equip1 - Uniques
 # Equip2 - DEX Bases Only
+# Equip3 - Other Bases
 # Salvage/Disenchant/Profit
 # Hidden
 
@@ -183,6 +184,24 @@ BaseEvasion <= 0
 Show
 Rarity <= Rare
 Class "Bows" "Crossbows" "Quivers"
+
+#--------------------------
+# Equip3 - Other Bases
+#--------------------------
+
+# Flasks
+Show
+Class "Flasks"
+
+# Rings
+Show
+Class "Rings"
+
+# Amulets
+Class "Amulets"
+
+# Belts
+Class "Belts"
 
 ##====================
 ## Salvage/Profit

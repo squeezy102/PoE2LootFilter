@@ -491,7 +491,7 @@ BaseType "Expert Heavy Crown" "Expert Martyr Crown"
 Show
 Class "Flasks"
 Rarity Magic
-Quality > 0
+Quality > 10
 SetFontSize 25
 BaseType "Ultimate"
 
@@ -500,18 +500,24 @@ Show
 Class "Rings"
 Rarity <= Rare
 SetFontSize 30
+SetBorderColor 255  255 255
+SetBackgroundColor 0 0 0
 BaseType "Amethyst" "Prismatic" "Topaz" "Sapphire" "Ruby"
 
 # Amulets
 Class "Amulets"
 Rarity <= Rare
 SetFontSize 30
+SetBorderColor 255  255 255
+SetBackgroundColor 0 0 0
 BaseType "Bloodstone" "Stellar" "Solar" "Lunar" "Lapis" "Amber"
 
 # Belts
 Class "Belts"
-Rarity >= Rare
+Rarity <= Rare
 SetFontSize 30
+SetBorderColor 255  255 255
+SetBackgroundColor 0 0 0
 BaseType "Golden" "Plate" "Fine"
 
 #--------------------------
